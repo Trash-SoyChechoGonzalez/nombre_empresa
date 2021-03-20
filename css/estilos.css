@@ -1,0 +1,75 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+body{
+     display: flex;
+     justify-content: center;
+}
+
+.container{
+     /* background-color: red; */
+     width: 90vw;
+     height: 1000px;
+} 
+header{
+     /* width: 100vw; */
+     height: 80px;
+     background-color: #fff;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.logo{
+     color: #000;
+     font-size: 40px;
+     text-decoration: none;
+     /* margin-left: 83px; */
+     font-weight: bold;
+}
+header nav ul{
+     display: flex;
+     /* margin-right: 83px; */
+     list-style: none;
+}
+header nav ul li{
+     padding: 30px;
+}
+
+header nav ul li a{
+     color: rgb(68, 68, 68);
+     text-decoration: none;
+     text-transform: uppercase;
+     font-weight: bold;
+}
+header nav ul li a:hover{
+     color: rgb(0, 0, 0);
+}
+
+.hero{
+     display: flex;
+     justify-content: space-evenly;
+}
+
+.hero__images{
+     width:700px;
+     height: 500px;
+     background-color: grey;
+     background-image: url(../img/zapatos.jpg);
+     background-size: cover ;
+     margin-top: 50px;
+     border-radius: 10px;
+}
+.hero__info{
+     width: 700px;
+     height: 500px;
+     /* background-color: grey; */
+     margin-top: 50px;
+}
+.info__title{
+     margin-top: 40px;
+     font-weight: 500;
+}
+.info__description{
+     line-height: 60px;
+}
